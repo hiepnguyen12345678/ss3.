@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="asdfdsfd" method="post">
+        <table></table>
+        <tr>
+            <td><label for="hoten">Ho va ten:</label></td>
+            <td><input
+                type="text"
+                name="hoten"
+                id="hoten"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email:</label></td>
+            <td><input
+                type="email"
+                name="email"
+                id="email"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="date">Ngay sinh:</label></td>
+            <td><input
+                type="date"
+                name="date"
+                id="date"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label>Gioi tinh:</label></td>
+            <td><input 
+                type="radio" 
+                id="male"
+                name="gender"/>
+            </input></td>
+            <td><label for="male">Nam</label></td>
+            <td><input 
+                type="radio"
+                id="female"
+                name="gender"/>
+            </input></td>
+            <td><label for="female">Nu</label></td>
+        </tr>
+        <tr>
+            <td><label for="sdt">so dien thoai:</label></td>
+            <td><input
+                type="tel"
+                name="sdt"
+                id="sdt"
+                pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="cn">Chuyen nganh:</label></td>
+            <td><input
+                type="text"
+                name="cn"
+                id="cn"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="nam">Nam nhap hoc:</label></td>
+            <td><input 
+                type="number"
+                name="nam"
+                id="nam"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="gpa">diem gpa:</label></td>
+            <td><input 
+                type="number"
+                name="gpa"
+                id="gpa"/>
+            </input></td>
+        </tr>
+        <tr>
+            <td><label for="dc">Dia chi:</label></td>
+            <td><textarea 
+                type="text"
+                name="dc"
+                id="dc">
+            </textarea></td>
+        </tr>
+        <tr>
+            <td><label>lop hoc:</label></td>
+            <td><select name="lop" >
+                <option >lop 1</option>
+                <option >lop 2</option>
+                <option >lop 3</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label for="datetime">Ngay dang ki hoc:</label></td>
+            <td><input 
+                type="datetime-local" 
+                id="datetime"
+                name="datetime"/>
+            </input></td>
+        </tr>
+        <button>Gui thong tin</button>
+        </table>
+    </form>
+</body>
+</html>
