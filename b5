@@ -1,0 +1,32 @@
+
+        </input>
+        </div>
+         <div>
+            <label for="datetime">Chọn ngày giờ:</label>
+            <input 
+                type="datetime-local" 
+                id="datetime"
+                name="datetime"/>
+            </input>
+         </div>
+         <div>
+            <label for="city">loại dịch vụ:</label>
+            <select name="city">
+                <option>tư vấn</option>
+                <option>học vấn</option>
+                <option>diệp vấn</option>
+            </select>
+         </div>
+         <div>
+            <label for="cmt">ghi chú:</label>
+            <textarea rows="5" cols="15"
+                type="text" 
+                id="cmt"
+                name="cmt">
+            </textarea>
+         </div>
+         <br>
+        <button>Đặt lịch</button>
+    </form>
+</body>
+</html>
