@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="adfasf" method="post">
+        <div>
+            <label for="choice">chọn sản phẩm:</label>
+            <select name="choice">
+                <option>sản phẩm 1</option>
+                <option>sản phẩm 2</option>
+                <option>sản phẩm 3</option>
+            </select>
+        </div>
+        <div>
+            <label for="sl">số lượng</label>
+            <input
+            type="number"
+            name="sl"
+            id="sl"
+            />
+            </input>
+        </div>
+        <div>
+            <label for="cmt">địa chỉ giao hàng:</label>
+            <textarea rows="5" cols="15"
+                type="text" 
+                id="cmt"
+                name="cmt">
+            </textarea>
+         </div>
+         <br>
+        <button>Đặt hàng</button>
+    </form>
+</body>
+</html>
