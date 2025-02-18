@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="ádffsa" method="post">
+        <div>
+            <label for="email">Email của bạn :</label>
+            <input  
+            type="email" 
+            name="email" 
+            id="email" 
+            />
+            </input>
+        </div>
+         <div>
+            <label >Chọn thông báo: </label>
+            <label for="newpaper">tin tức mới</label>
+            <input 
+                type="checkbox" 
+                id="newpaper"
+                name="gg"/>
+            </input>
+                <label for="sell">khuyến mãi</label>
+                <input 
+                type="checkbox"
+                id="sell"
+                name="gg"/>
+            </div>
+        <button>Đăng Ký</button>
+    </form>
+</body>
+</html>
